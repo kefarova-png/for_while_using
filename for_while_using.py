@@ -11,7 +11,7 @@ def summ_of_squares_of_odd_from_one_to_ten():
     print(square_list)
 
 
-def input_and_counting_of_the_number_of_numbers_stops_by_entering_a_negative_number():
+def input_and_counting_of_the_entered_numbers_stops_by_entering_a_negative_number():
     count = 0
     number = 0
     while number >= 0:  #   Отрицательное число, введённое последним, тоже считается
@@ -28,4 +28,4 @@ def input_and_counting_of_the_number_of_numbers_stops_by_entering_a_negative_num
 
 summ_of_even_from_one_to_one_hundred()
 summ_of_squares_of_odd_from_one_to_ten()
-input_and_counting_of_the_number_of_numbers_stops_by_entering_a_negative_number()
+input_and_counting_of_the_entered_numbers_stops_by_entering_a_negative_number()
