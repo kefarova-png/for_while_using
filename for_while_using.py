@@ -5,7 +5,7 @@ for n in range(1, 100+1): #  от 1 до 100 включительно
 print("2 + 4 + 6 + ... + 100 =", even_summ)
 
 
-square_list = [x*x for x in range(1, 10+1) if x % 2 == 0]
+square_list = [x*x for x in range(1, 10+1) if x % 2 != 0]
 print(square_list)
 
 
